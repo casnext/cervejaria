@@ -1,0 +1,95 @@
+<html>
+<head>
+  <link rel="icon" href="imagens/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script type="text/javascript">
+    function carregar(pagina){
+          $("#conteudo").load(pagina);
+      }
+  </script>
+
+  <link rel="stylesheet" type="text/css" href="../css/menu-principal.css">
+  <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+  <meta charset="utf-8">
+  <style>
+ 
+	.wrapper .main_content .header {
+		background-color: #0569b100;
+		padding:11px;
+		align-items:right;
+	}
+
+  .wrapper .sidebar ul li {
+    cursor: pointer;
+    padding: 15px;
+    width: 180px;
+    position: relative;
+    background-color: #1D2731;
+    border-bottom: 1px solid #bdb8d7;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    border-top: 1px solid rgba(255,255,255,0.05);
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.wrapper .sidebar ul li:hover {
+    width: 250px;
+}
+	</style>
+
+  <title>Beer Motion</title>
+</head>
+
+<body>
+<div class="wrapper">
+    <div class="sidebar">
+      <h2><img src="imagens/beer.png" width="125px" height="125px" alt="Suporte"></h2>
+
+        <ul class="mainmenu">
+          <li><a href="home.php"><i class="fas fa-chart-bar"></i>Dashboard</a></li>
+
+          <li><a href="#"><i class="fas fa-industry"></i>Produção</a>
+            <ul>
+              <li><a href="form-cad-usuarios.php"><span class="fa fa-search"></span>Pesquisa de Produção</a></li>
+			        <li><a href="form-cons-usuarios.php"><span class="fa fa-search"></span>Controle de Produção</a></li>
+              <li><a href="form-cons-usuarios.php"><span class="fas fa-sync"></span>Atualizar Ordem de Produção</a></li>
+            </ul>
+          </li>
+
+          <li><a href="#"><i class="fas fa-user"></i>Clientes</a>
+              <ul>
+                  <li><a href="form-cad-ativos.php"><span class="fas fa-list"></span>Listar Clientes</a></li>
+				          <li><a href="form-cons-ativos.php"><span class="fas fa-list"></span>Pedidos por clientes</a></li>
+              </ul>
+          </li>
+
+          <li><a href="#"><i class="fas fa-plus"></i>Cadastros</a>
+            <ul>
+              <li><a href="form-cad-chamados.php"><span class="fas fa-user-plus"></span>Cadastro de Funcionario</a></li>
+			        <li><a href="form-cons-chamados.php"><span class="fas fa-user-plus"></span>Cadastro de Cliente</a></li>
+			        <li><a href="visualizar-chamados.php"><span class="fas fa-shopping-cart"></span>Cadastro de Pedido</a></li>
+            </ul>
+          </li>
+
+          <li><a href="#"><i class="fas fa-shopping-cart"></i>Vendas</a>
+            <ul>
+              <li><a href="form-cad-chamados.php"><span class="fas fa-dollar-sign"></span>Consultar Vendas</a></li>
+			        <li><a href="form-cons-chamados.php"><span class="fas fa-chart-bar"></span>Indicadores</a></li>
+            </ul>
+          </li>
+
+          <li><a href="logout.php"><img src="../imagens/sair.png" alt="some text" width=25 height=25><br><h6> Sair</h6></a></li>
+        
+        </ul> 
+    </div>
+
+    <div class="main_content">
+        <div class="header">
+        </div>
+    </div>
+</div>
+</body>
+</html>
