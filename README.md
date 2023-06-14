@@ -15,6 +15,7 @@ O projeto utiliza as seguintes tecnologias:
 Além das linguagens de programação, o projeto também faz uso de um banco de dados para armazenar as informações relacionadas à produção de cerveja. O banco de dados utilizado pode variar de acordo com a preferência e necessidades do usuário.
 
 <h2>Requisitos de Instalação</h2>
+
 Para executar o projeto em seu ambiente de desenvolvimento, você precisará ter instalado:
 
 • Servidor web (como Apache, Nginx, etc.)
