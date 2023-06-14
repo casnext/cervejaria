@@ -18,15 +18,25 @@ Além das linguagens de programação, o projeto também faz uso de um banco de 
 Para executar o projeto em seu ambiente de desenvolvimento, você precisará ter instalado:
 
 • Servidor web (como Apache, Nginx, etc.)
+
 • PHP (versão compatível com o projeto)
+
 • Banco de dados (por exemplo, MySQL, PostgreSQL, etc.)
+
 • Ambiente de desenvolvimento integrado (IDE) ou editor de texto
+
 • Configuração e Execução
+
 • Clone ou faça o download do repositório do projeto.
+
 • Configure seu servidor web para apontar para o diretório onde o projeto está localizado.
+
 • Crie um banco de dados e importe o arquivo de estrutura do banco de dados fornecido.
+
 • Configure as informações de conexão com o banco de dados no arquivo de configuração do projeto.
+
 • Abra o projeto em seu ambiente de desenvolvimento.
+
 • Execute o servidor web e acesse a aplicação pelo navegador.
 
 <h2>Autores</h2>
