@@ -30,8 +30,8 @@ Para executar o projeto em seu ambiente de desenvolvimento, você precisará ter
 • Execute o servidor web e acesse a aplicação pelo navegador.
 
 <h2>Autores</h2>
-Victor Cassimiro Silva
-Victor Willian
+Victor Cassimiro Silva,
+Victor Willian Souza
 
 <h2>Licença</h2>
 Este projeto está licenciado sob a Licença MIT, o que significa que você pode usá-lo livremente, modificar e distribuir conforme suas necessidades.
