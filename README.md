@@ -47,4 +47,4 @@ Victor Willian Souza
 <h2>Licença</h2>
 Este projeto está licenciado sob a Licença MIT, o que significa que você pode usá-lo livremente, modificar e distribuir conforme suas necessidades.
 
-Esperamos que este projeto de controle de produção de cervejaria seja útil
+<h3>Esperamos que este projeto de controle de produção de cervejaria seja útil</h3>
